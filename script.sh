@@ -1,0 +1,1 @@
+mkdir -p test/tmp && chmod 1733 test/tmp && echo "*" >> test/tmp/.gitignore && echo "test/tmp directory successfully created"

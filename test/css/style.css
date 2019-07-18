@@ -1,0 +1,194 @@
+body 
+{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+header.topMenu
+{
+    background-color: #cccccc;
+    text-align: center;
+    font-size: 32px;
+    padding: 10px 5px;
+}
+
+nav.topMenuLinks a
+{
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav.topMenuLinks a:hover
+{
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+nav.topMenuLinks a:not(:first-child) 
+{
+    margin-left: 5px;
+}
+
+a
+{
+    color: #ffff00;
+}
+
+a:focus
+{
+    color: #00ffff;
+}
+
+div.form
+{
+    margin: auto;
+    width: 800px;
+    max-width: 100%;
+    border: 1px solid #ffffff77;
+    border-radius: 1px;
+}
+
+div.row, div.label, div.input, label
+{
+    width: 100%;
+}
+
+div.row, div.label
+{
+    margin: 0 5px;
+}
+
+div.row
+{
+    margin-bottom: 10px;
+}
+
+div.row.result
+{
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+div.row.tokenInput
+{
+    display: none;
+}
+
+div.row:last-child
+{
+    margin-bottom: 5px;
+}
+
+div.formResult
+{
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+div.formResult.success, div.formResult.error, div.formResult.info
+{
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+}
+
+div.formResult.success
+{
+    background-color: #77c696;
+    color: #008b5a;
+    border-color: #008b5a;
+}
+
+div.formResult.error
+{
+    background-color: #f59fb3;
+    color: #e3051c;
+    border-color: #e3051c;
+}
+
+div.formResult.info
+{
+    background-color: #65c4e8;
+    color: #0068be;
+    border-color: #0068be;
+}
+
+input
+{
+    width: 99%;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+ul.addresses
+{
+    list-style-type: none;
+    text-align: center;
+}
+
+li.address
+{
+    display: inline-block;
+    max-width: 100%;
+    width: 320px;
+    border: 1px solid #ffffff77;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+
+div.contact
+{
+    text-align: left;
+    margin-top: 20px;
+}
+
+div.buttons
+{
+    text-align: center;
+}
+
+div.buttons + div.buttons
+{
+    margin-top: 20px;
+}
+
+div.addressButtons
+{
+    margin-top: 20px;
+}
+
+a.button, a.addressButton
+{
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+a.button
+{
+    background-color: #ffff00;
+}
+
+a.addressButton
+{
+    background-color: #cccccc;
+}
+
+a[data-action]:hover
+{
+    cursor: pointer;
+}
+
+a.button:hover
+{
+    background-color: #00ffff;
+}
